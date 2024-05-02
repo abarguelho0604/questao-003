@@ -1,0 +1,84 @@
+.borda {
+    margin-right: 30px;
+    inline-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-weight: bold ;
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #EFFAF3;
+    
+}
+
+.cg {
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #E7E6E7;
+}
+
+.dadosp{
+    width: 45%;
+    border-color: #A8F5BD;
+    border-style: solid;
+}
+
+.nome {
+    font-weight: lighter;
+}
+
+.profissao {
+    font-weight: lighter;
+}
+
+.localizacao {
+    width: 45%;
+    border-color: #A8F5BD;
+    border-style: solid;
+}
+
+.locald {
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #E7E6E7;
+}
+
+.faixa {
+    border-color: #A8F5BD;
+    border-style: solid;
+}
+
+.faixad {
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #E7E6E7;
+}
+
+.esporte {
+    border-color: #A8F5BD;
+    border-style: solid;
+}
+
+.esported {
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #E7E6E7;
+}
+
+.comentario {
+    border-color: #A8F5BD;
+    border-style: solid;
+}
+
+.comentariod {
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #E7E6E7;
+}
+
+.transp {
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #E7E6E7;
+    
+}

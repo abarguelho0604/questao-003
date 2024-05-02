@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <div>
+        <form action="" method="post">
+        <fieldset class="borda">
+            <legend class="cg">Cadastro Geral</legend>
+            <fieldset class="dadosp">
+                <legend class="transp">Dados Pessoais</legend>
+                <label for="nome" class="nome">Nome Completo:</label>
+                <input type="text" name="nome" id="nome">
+                <br>
+                <br>
+
+                <div>
+                    <label for="" class="profissao">Profissão:</label>
+                    <select value="profissao">
+                        <option value="">Sua profissão</option>
+                        <option name="vendedor" id="vendedor">Vendedor(a)</option>
+                        <option name="programador" id="programador">Programador(a)</option>
+                        <option name="analista" id="analista">Analista</option>
+                        <option name="administrador" id="administrador">Administrador(a)</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <div>
+                <br>
+                <fieldset class="localizacao">
+                    <legend class="locald">Localização</legend>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" id="email">
+                    <br>
+                    <br>
+
+                    <div>
+                        <label for="rua">Rua</label>
+                        <input type="text" name="rua" id="rua">
+                    </div>
+                </fieldset>
+            </div>
+
+            <div>
+                <br>
+                <fieldset class="faixa">
+                    <legend class="faixad">Faixa Etária</legend>
+                    <input type="radio" name="ano" id="ano"> Até 20 anos <br>                         
+                    <input type="radio" name="ano" id="ano"> Mais de 30 até 40 anos <br>
+                    <input type="radio" name="ano" id="ano"> Mais de 20 até 30 anos <br>
+                    <input type="radio" name="ano" id="ano"> Mais de 40 até 50 anos <br>
+                    <input type="radio" name="ano" id="ano"> Mais de 50 até 60 anos <br>
+                    <input type="radio" name="ano" id="ano"> Mais de 60 anos
+                </fieldset>
+            </div>
+
+            <div>
+                <br>
+                <fieldset class="esporte">
+                    <legend class="esported">Esportes que pratica</legend>
+                    <input type="checkbox" name="fcampo" id="fcampo"> Futebol de campo
+                    <br>
+                    <input type="checkbox" name="fsalao" id="fsalao"> Futebol de salão
+                    <br>
+                    <input type="checkbox" name="fsociety" id="fsociety"> Futebol society
+                    <br>
+                    <input type="checkbox" name="vquadra" id="vquadra"> Vôlei de quadra
+                    <br>
+                    <input type="checkbox" name="vpraia" id="vpraia"> Vôlei de praia
+                    <br>
+                    <input type="checkbox" name="npiscina" id="npiscina"> Natação piscina
+                    <br>
+                    <input type="checkbox" name="nmar"> Natação em mar aberto
+                </fieldset>
+            </div>
+
+            <div>
+                <br>
+                <fieldset class="comentario">
+                    <legend class="comentariod">Comentário</legend>
+                    <label for="">Mensagem</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+                </fieldset>
+
+                <div>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </div>
+        </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
